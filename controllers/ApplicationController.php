@@ -40,7 +40,7 @@ class ApplicationController {
         if ($action == 'approve') {
             $this->appModel->approveApplication($app_id, $reviewed_by);
             $this->auditLog->log($reviewed_by, 'approve_application', 'expert_application', $app_id, 'Approved');
-            $_SESSION['success'] = "Application approved. User promoted to Verified Expert.";
+            $_SESSION['success'] = "Application approved successfully. User has been promoted to Verified Expert.";
 
         } elseif ($action == 'reject') {
             $reason = isset($_POST['reject_reason']) ? trim($_POST['reject_reason']) : '';
