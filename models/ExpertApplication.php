@@ -1,6 +1,5 @@
-/
-  ExpertApplication Model — manages expert application approvals and rejections.
- /
+
+
 <?php
 
 require_once __DIR__ . '/../config/Database.php';
