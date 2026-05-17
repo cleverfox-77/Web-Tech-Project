@@ -12,7 +12,8 @@ class AuditLogController {
 
     public function index() {
         $data = array();
-        $data['logs']  = $this->auditLog->getAll();
+       $data['logs']  = $this->auditLog->getAll();
+$data['title'] = "Admin Audit Log";
         $data['total'] = $this->auditLog->getCount();
         return $data;
     }
