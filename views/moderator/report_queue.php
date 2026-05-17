@@ -15,7 +15,9 @@ $data = $controller->queue();
         .navbar a:hover { text-decoration: underline; }
         .container { max-width: 1100px; margin: 30px auto; padding: 0 16px; }
         h2 { color: #2c3e50; }
-        .report-card { background: white; border-radius: 6px; padding: 20px; margin-bottom: 20px;
+        .report-card { background: white;
+        border: 1px solid #eaeaea;
+        border-radius: 6px; padding: 20px; margin-bottom: 20px;
                        box-shadow: 0 1px 4px rgba(0,0,0,0.1); }
         .report-card .meta { font-size: 13px; color: #888; margin-bottom: 8px; }
         .report-card .content-box { background: #f8f9fa; border-left: 4px solid #2c3e50;
