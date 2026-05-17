@@ -16,26 +16,93 @@ $all_warnings = $warningModel->getAllWarnings();
 <head>
     <title>Warning History</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; background: #f5f5f5; }
-        .navbar { background: #2c3e50; color: white; padding: 12px 24px; display: flex; justify-content: space-between; align-items: center; }
-        .navbar a { color: white; text-decoration: none; margin-left: 16px; }
-        .navbar a:hover { text-decoration: underline; }
-        .container { max-width: 1100px; margin: 30px auto; padding: 0 16px; }
-        h2 { color: #2c3e50; }
-        .panel { background: white; border-radius: 6px; padding: 22px; margin-bottom: 24px;
-                 box-shadow: 0 1px 4px rgba(0,0,0,0.1); }
-        .section-title { font-size: 15px; font-weight: bold; color: #2c3e50;
-                         border-bottom: 2px solid #2c3e50; padding-bottom: 6px; margin-bottom: 14px; }
-        table { width: 100%; border-collapse: collapse; }
-        th, td { padding: 10px 14px; text-align: left; border-bottom: 1px solid #eee; font-size: 14px; }
-        th { background: #f8f9fa; font-weight: bold; color: #555; }
-        tr:hover td { background: #fafafa; }
-        .no-data { color: #aaa; font-style: italic; text-align: center; padding: 24px; }
-        .count-badge { display: inline-block; background: #2c3e50; color: white;
-                       padding: 3px 12px; border-radius: 20px; font-size: 13px; margin-left: 8px; }
-        .alert { padding: 12px 16px; border-radius: 4px; margin-bottom: 16px; }
-        .alert-success { background: #d4edda; color: #155724; }
-        .alert-error   { background: #f8d7da; color: #721c24; }
+        body { font-family: Arial, sans-serif; margin: 0; 
+            background: #f5f5f5; }
+        .navbar { background: #2c3e50; 
+        color: white; padding: 12px 24px; 
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center; }
+        .navbar a { 
+            color: white; 
+            text-decoration: none;
+             margin-left: 16px;
+             }
+        .navbar a:hover { 
+            text-decoration: underline; 
+        }
+        .container { 
+            max-width: 1100px; 
+            margin: 30px auto; 
+            padding: 0 16px; }
+        h2 { 
+            color: #2c3e50; 
+         }
+        .panel { background: white; 
+        border-radius: 6px; 
+        padding: 22px; 
+        margin-bottom: 24px;
+                 box-shadow: 0 1px 4px rgba(0,0,0,0.1); 
+                }
+        .section-title
+         { 
+            font-size: 15px; 
+            font-weight: bold; 
+            color: #2c3e50;
+                         border-bottom: 2px solid #2c3e50;
+                          padding-bottom: 6px; 
+                          margin-bottom: 14px; 
+                        }
+        table 
+        { 
+            width: 100%;
+             border-collapse: collapse; 
+            }
+        th, td 
+        { 
+            padding: 10px 14px; 
+            text-align: left; 
+            border-bottom: 1px solid #eee;
+             font-size: 14px; }
+        th 
+        { 
+            background: #f8f9fa; 
+            font-weight: bold; 
+            color: #555;
+         }
+        tr:hover td
+         { background: #fafafa;
+         }
+        .no-data 
+        { 
+            color: #aaa;
+             font-style: italic; 
+             text-align: center; 
+             padding: 24px; }
+        .count-badge 
+        { 
+            display: inline-block;
+             background: #2c3e50;
+              color: white;
+                       padding: 3px 12px;
+                        border-radius: 20px;
+                         font-size: 13px; 
+                         margin-left: 8px; 
+                        }
+        .alert
+         { 
+            padding: 12px 16px;
+             border-radius: 4px; 
+             margin-bottom: 16px; 
+            }
+        .alert-success
+         { 
+            background: #d4edda; color: #155724;
+         }
+        .alert-error  
+         { background: #f8d7da;
+          color: #721c24; 
+        }
     </style>
 </head>
 <body>

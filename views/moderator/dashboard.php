@@ -17,7 +17,9 @@ $data = $controller->index();
         h2 { color: #2c3e50; }
         .stats-grid { display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 30px; }
         .stat-card { background: white; border-radius: 6px; padding: 24px 32px; flex: 1; min-width: 180px;
-                     box-shadow: 0 1px 4px rgba(0,0,0,0.1); text-align: center; }
+                     box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+                      text-align: center; 
+                    }
         .stat-card h3 { margin: 0 0 8px; font-size: 15px; color: #555; }
         .stat-card .number { font-size: 38px; font-weight: bold; color: #2c3e50; }
         .stat-card.red .number  { color: #e74c3c; }
