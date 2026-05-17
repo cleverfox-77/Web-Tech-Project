@@ -24,7 +24,7 @@ $data = $controller->index();
         input[type=text], input[type=number], select, textarea {
             padding: 8px; border: 1px solid #ccc; border-radius: 4px;
             font-size: 14px; width: 100%; box-sizing: border-box; margin-bottom: 10px; }
-        .form-row { display: flex; gap: 12px; align-items: flex-end; flex-wrap: wrap; }
+        .form-row { display: flex; gap: 14px; align-items: flex-end; flex-wrap: wrap; }
         .form-row .field { flex: 1; min-width: 140px; }
         .form-row label { display: block; font-weight: bold; color: #555; margin-bottom: 4px; font-size: 13px; }
         .btn { padding: 8px 18px; border: none; border-radius: 4px; cursor: pointer; font-size: 14px; }
