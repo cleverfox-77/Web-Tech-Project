@@ -8,7 +8,8 @@ $s = $data['settings'];
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Platform Settings</title>
+   <h2>Platform Settings &amp; Configuration</h2>
+   
     <style>
         body { font-family: Arial, sans-serif; margin: 0; background: #f0f2f5; }
         .navbar { background: #1a252f; color: white; padding: 12px 28px; display: flex; justify-content: space-between; align-items: center; }
