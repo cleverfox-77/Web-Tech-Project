@@ -18,7 +18,7 @@ $data = $controller->index();
         .panel { background: white; border-radius: 6px; padding: 20px; margin-bottom: 24px;
                  box-shadow: 0 1px 4px rgba(0,0,0,0.1); }
         table { width: 100%; border-collapse: collapse; }
-        th, td { padding: 10px 14px; text-align: left; border-bottom: 1px solid #eee; font-size: 14px; }
+        th, td { padding: 12px 14px; text-align: left; border-bottom: 1px solid #eee; font-size: 14px; }
         th { background: #f8f9fa; font-weight: bold; color: #555; }
         tr:hover { background: #f8f9fa; }
         input[type=text], input[type=number], select, textarea {
