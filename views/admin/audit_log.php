@@ -7,7 +7,7 @@ $data = $controller->index();
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Audit Log &mdash; Admin</title>
+    <title>Audit Log &mdash; Community Forum Admin</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 0; background: #f0f2f5; }
         .navbar { background: #1a252f; color: white; padding: 12px 28px; display: flex; justify-content: space-between; align-items: center; }
