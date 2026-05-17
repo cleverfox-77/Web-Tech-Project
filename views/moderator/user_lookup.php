@@ -50,7 +50,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         .search-row { display: flex; gap: 10px; align-items: center; }
         .search-row input[type=text] { flex: 1; padding: 10px 14px; border: 1px solid #ccc;
                                        border-radius: 4px; font-size: 14px; }
-        .btn { padding: 10px 22px; border: none; border-radius: 4px; cursor: pointer; font-size: 14px; }
+        .btn { padding: 10px 22px; border: none; border-radius: 6px; cursor: pointer; font-size: 14px; }
         .btn-primary { background: #2c3e50; color: white; }
         .btn:hover { background: #34495e; }
         table { width: 100%; border-collapse: collapse; margin-top: 10px; }
