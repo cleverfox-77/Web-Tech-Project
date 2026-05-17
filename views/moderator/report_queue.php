@@ -19,7 +19,7 @@ $data = $controller->queue();
         border: 1px solid #eaeaea;
         border-radius: 6px; padding: 20px; margin-bottom: 20px;
                        box-shadow: 0 1px 4px rgba(0,0,0,0.1); }
-        .report-card .meta { font-size: 13px; color: #888; margin-bottom: 8px; }
+        .report-card .meta { font-size: 13px; color: #777; margin-bottom: 8px; }
         .report-card .content-box { background: #f8f9fa; border-left: 4px solid #2c3e50;
                                     padding: 12px; margin: 10px 0; border-radius: 3px; }
         .report-card .reason { background: #fff3cd; border-left: 4px solid #ffc107;
