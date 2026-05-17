@@ -9,6 +9,8 @@ class AuthMiddleware {
             exit();
         }
         if ($_SESSION['role'] !== 'admin') {
+            // Redirect unauthenticated users to login
+
             header("Location: ../../login.php");
             exit();
         }
