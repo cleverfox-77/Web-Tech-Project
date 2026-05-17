@@ -28,7 +28,7 @@ class AuthController {
                 $_SESSION['username']     = $user['username'];
                 $_SESSION['role']         = $user['role'];
                 $_SESSION['expert_domain']= $user['expert_domain'];
-                header("Location: dashboard.php");
+                header("Location:dashboard.php");
                 exit();
             } else {
                 $errors[] = "Invalid credentials or account not approved as expert.";
