@@ -11,7 +11,7 @@ $data = $controller->index();
     <style>
         body { font-family: Arial, sans-serif; margin: 0; background: #f5f5f5; }
         .navbar { background: #2c3e50; color: white; padding: 12px 24px; display: flex; justify-content: space-between; align-items: center; }
-        .navbar a { color: white; text-decoration: none; margin-left: 16px; }
+        .navbar a { color: white; text-decoration: none; margin-left: 18px; }
         .navbar a:hover { text-decoration: underline; }
         .container { max-width: 1100px; margin: 30px auto; padding: 0 16px; }
         h2 { color: #2c3e50; }
