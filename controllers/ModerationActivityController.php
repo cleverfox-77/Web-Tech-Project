@@ -45,7 +45,7 @@ class ModerationActivityController {
             } else {
                 $this->modModel->liftSuspension($user_id, $admin_id, $reason);
                 $this->auditLog->log($admin_id, 'lift_suspension', 'user', $user_id, $reason);
-                $_SESSION['success'] = "Suspension lifted. User account re-activated.";
+                $_SESSION['success'] = "Suspension lifted successfully. User account has been re-activated.";
             }
 
         } elseif ($action == 'reinstate_content') {
