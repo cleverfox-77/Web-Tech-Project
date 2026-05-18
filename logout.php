@@ -1,4 +1,8 @@
 <?php
-require_once __DIR__ . '/middleware/AuthMiddleware.php';
-AuthMiddleware::logout();
-?>
+session_start();
+session_unset();
+session_destroy();
+
+// Redirect straight to the login page
+header("Location: login.php");
+exit;
